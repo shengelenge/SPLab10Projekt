@@ -6,5 +6,7 @@ int main() {
 
 	int liczba; // szukana liczba
 
+	srand(time(NULL));
+	liczba = rand() % 101;
 
 }
